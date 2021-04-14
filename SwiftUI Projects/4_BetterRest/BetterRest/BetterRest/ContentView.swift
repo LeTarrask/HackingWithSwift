@@ -81,8 +81,8 @@ struct ContentView: View {
                             } else {
                                 Text("\(coffeeAmount) cups")
                             }
-
                         }
+                        .accessibility(label: Text("\(coffeeAmount == 1 ? "1 cup" : "\(coffeeAmount) cups")"))
                     }
                 }
             }
