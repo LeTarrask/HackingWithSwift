@@ -56,6 +56,8 @@ class ViewController: UIViewController {
         button2.layer.borderColor = UIColor.lightGray.cgColor
         button3.layer.borderColor = UIColor.lightGray.cgColor
 
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .organize, target: self, action: #selector(showScore))
+
         askQuestion(action: nil)
     }
 
@@ -76,6 +78,15 @@ class ViewController: UIViewController {
 
         correctAnswer = Int.random(in: 0...2)
         title = "Guess: \(countries[correctAnswer].uppercased()) - Current Score: \(score)"
+    }
+
+    @objc func showScore() {
+        let title = "Your score"
+        let message = "Your score is \(score)."
+
+        let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        ac.addAction(UIAlertAction(title: "Continue", style: .default, handler: askQuestion))
+        present(ac, animated: true)
     }
 }
 
