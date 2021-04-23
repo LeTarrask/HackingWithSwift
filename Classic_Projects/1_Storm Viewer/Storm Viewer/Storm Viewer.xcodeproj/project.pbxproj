@@ -26,6 +26,7 @@
 		7994B8BC263195890028C14A /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7994B8B2263195890028C14A /* nssl0033.jpg */; };
 		7994B8BD263195890028C14A /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7994B8B3263195890028C14A /* nssl0034.jpg */; };
 		7994B8C2263198D80028C14A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7994B8C1263198D80028C14A /* DetailViewController.swift */; };
+		7994BB292632E16E0028C14A /* Storm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7994BB282632E16E0028C14A /* Storm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		7994B8B2263195890028C14A /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
 		7994B8B3263195890028C14A /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
 		7994B8C1263198D80028C14A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7994BB282632E16E0028C14A /* Storm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				7994B8762631954F0028C14A /* AppDelegate.swift */,
 				7994B8782631954F0028C14A /* SceneDelegate.swift */,
 				7994B87A2631954F0028C14A /* ViewController.swift */,
+				7994BB282632E16E0028C14A /* Storm.swift */,
 				7994B8C1263198D80028C14A /* DetailViewController.swift */,
 				7994B87C2631954F0028C14A /* Main.storyboard */,
 				7994B87F263195540028C14A /* Assets.xcassets */,
@@ -312,6 +315,7 @@
 				7994B87B2631954F0028C14A /* ViewController.swift in Sources */,
 				7994B8772631954F0028C14A /* AppDelegate.swift in Sources */,
 				7994B8792631954F0028C14A /* SceneDelegate.swift in Sources */,
+				7994BB292632E16E0028C14A /* Storm.swift in Sources */,
 				7994B8C2263198D80028C14A /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
