@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MonsterDetailView: View {
     var monster: Monster
-    
+
     var body: some View {
         ScrollView {
             VStack {
@@ -18,7 +18,7 @@ struct MonsterDetailView: View {
                     Text(monster.name)
                     Text(monster.meta)
                 }
-                
+
                 VStack {
                     Text("Characteristics")
                     HStack {
@@ -27,7 +27,7 @@ struct MonsterDetailView: View {
                         Text(monster.speed ?? "")
                     }
                 }
-                
+
                 VStack {
                     Text("Attributes")
                     HStack {
@@ -39,37 +39,37 @@ struct MonsterDetailView: View {
                         Text(monster.CHA)
                     }
                 }
-                
+
                 VStack {
                     Text("Skills")
                     Text(monster.skills ?? "")
                 }
-                
+
                 VStack {
                     Text("Senses")
                     Text(monster.senses ?? "")
                 }
-                
+
                 VStack {
                     Text("Languages")
                     Text(monster.languages ?? "")
                 }
-                
+
                 VStack {
                     Text("Challenge")
                     Text(monster.challenge ?? "")
                 }
-                
+
                 VStack {
                     Text("Traits")
                     Text(monster.traits ?? "")
                 }
-                
+
                 VStack {
                     Text("Actions")
                     Text(monster.actions ?? "")
                 }
-                
+
                 VStack {
                     Text("Legendary Actions")
                     Text(monster.legendaryActions ?? "")
