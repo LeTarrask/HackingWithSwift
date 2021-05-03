@@ -10,7 +10,7 @@ Started on Friday 16/04/21.
 Completed all Swift UIKit projects on Tuesday, 27/04/2021, and added them to the [github repo](https://github.com/LeTarrask/HackingWithSwift/tree/main/Classic_Projects_OK)
 
 ## Hacking with Swift UIKit Milestones
-Started on Friday 16/04/21 along with the UIKit projects, but postponed them to complete later.
+Started on Friday 16/04/21 along with the UIKit projects, completed on Friday, 30/04/2021. [repo](https://github.com/LeTarrask/HackingWithSwift/tree/main/Milestone_Projects)
 
 ## Hacking with Swift SpriteKit
 Started on ***
