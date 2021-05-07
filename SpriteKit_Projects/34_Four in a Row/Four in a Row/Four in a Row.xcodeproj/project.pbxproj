@@ -7,29 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		79FD1C84264581AD00CA97BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FD1C83264581AD00CA97BF /* AppDelegate.swift */; };
-		79FD1C86264581AD00CA97BF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 79FD1C85264581AD00CA97BF /* GameScene.sks */; };
-		79FD1C88264581AD00CA97BF /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 79FD1C87264581AD00CA97BF /* Actions.sks */; };
-		79FD1C8A264581AD00CA97BF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FD1C89264581AD00CA97BF /* GameScene.swift */; };
-		79FD1C8C264581AD00CA97BF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FD1C8B264581AD00CA97BF /* GameViewController.swift */; };
-		79FD1C8F264581AD00CA97BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79FD1C8D264581AD00CA97BF /* Main.storyboard */; };
-		79FD1C91264581B300CA97BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79FD1C90264581B300CA97BF /* Assets.xcassets */; };
+		79FD1CA5264582F200CA97BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FD1CA4264582F200CA97BF /* AppDelegate.swift */; };
+		79FD1CA7264582F200CA97BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FD1CA6264582F200CA97BF /* SceneDelegate.swift */; };
+		79FD1CA9264582F200CA97BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FD1CA8264582F200CA97BF /* ViewController.swift */; };
+		79FD1CAC264582F200CA97BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79FD1CAA264582F200CA97BF /* Main.storyboard */; };
+		79FD1CAE264582F700CA97BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79FD1CAD264582F700CA97BF /* Assets.xcassets */; };
+		79FD1CB1264582F700CA97BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79FD1CAF264582F700CA97BF /* LaunchScreen.storyboard */; };
+		79FD1CB92645854300CA97BF /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FD1CB82645854300CA97BF /* Board.swift */; };
+		79FD1CBB2645886300CA97BF /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FD1CBA2645886300CA97BF /* Player.swift */; };
+		79FD1CBD26458A7B00CA97BF /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FD1CBC26458A7A00CA97BF /* Move.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		79FD1C80264581AD00CA97BF /* Four in a Row.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Four in a Row.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		79FD1C83264581AD00CA97BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		79FD1C85264581AD00CA97BF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		79FD1C87264581AD00CA97BF /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		79FD1C89264581AD00CA97BF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		79FD1C8B264581AD00CA97BF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		79FD1C8E264581AD00CA97BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		79FD1C90264581B300CA97BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		79FD1C92264581B300CA97BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79FD1CA1264582F200CA97BF /* Four in a row.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Four in a row.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FD1CA4264582F200CA97BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79FD1CA6264582F200CA97BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		79FD1CA8264582F200CA97BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79FD1CAB264582F200CA97BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79FD1CAD264582F700CA97BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79FD1CB0264582F700CA97BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79FD1CB2264582F700CA97BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79FD1CB82645854300CA97BF /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		79FD1CBA2645886300CA97BF /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		79FD1CBC26458A7A00CA97BF /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		79FD1C7D264581AD00CA97BF /* Frameworks */ = {
+		79FD1C9E264582F200CA97BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,72 +43,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		79FD1C77264581AD00CA97BF = {
+		79FD1C98264582F200CA97BF = {
 			isa = PBXGroup;
 			children = (
-				79FD1C82264581AD00CA97BF /* Four in a Row */,
-				79FD1C81264581AD00CA97BF /* Products */,
+				79FD1CA3264582F200CA97BF /* Four in a row */,
+				79FD1CA2264582F200CA97BF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		79FD1C81264581AD00CA97BF /* Products */ = {
+		79FD1CA2264582F200CA97BF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				79FD1C80264581AD00CA97BF /* Four in a Row.app */,
+				79FD1CA1264582F200CA97BF /* Four in a row.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		79FD1C82264581AD00CA97BF /* Four in a Row */ = {
+		79FD1CA3264582F200CA97BF /* Four in a row */ = {
 			isa = PBXGroup;
 			children = (
-				79FD1C83264581AD00CA97BF /* AppDelegate.swift */,
-				79FD1C85264581AD00CA97BF /* GameScene.sks */,
-				79FD1C87264581AD00CA97BF /* Actions.sks */,
-				79FD1C89264581AD00CA97BF /* GameScene.swift */,
-				79FD1C8B264581AD00CA97BF /* GameViewController.swift */,
-				79FD1C8D264581AD00CA97BF /* Main.storyboard */,
-				79FD1C90264581B300CA97BF /* Assets.xcassets */,
-				79FD1C92264581B300CA97BF /* Info.plist */,
+				79FD1CA4264582F200CA97BF /* AppDelegate.swift */,
+				79FD1CA6264582F200CA97BF /* SceneDelegate.swift */,
+				79FD1CA8264582F200CA97BF /* ViewController.swift */,
+				79FD1CBA2645886300CA97BF /* Player.swift */,
+				79FD1CB82645854300CA97BF /* Board.swift */,
+				79FD1CBC26458A7A00CA97BF /* Move.swift */,
+				79FD1CAA264582F200CA97BF /* Main.storyboard */,
+				79FD1CAD264582F700CA97BF /* Assets.xcassets */,
+				79FD1CAF264582F700CA97BF /* LaunchScreen.storyboard */,
+				79FD1CB2264582F700CA97BF /* Info.plist */,
 			);
-			path = "Four in a Row";
+			path = "Four in a row";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		79FD1C7F264581AD00CA97BF /* Four in a Row */ = {
+		79FD1CA0264582F200CA97BF /* Four in a row */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79FD1C95264581B300CA97BF /* Build configuration list for PBXNativeTarget "Four in a Row" */;
+			buildConfigurationList = 79FD1CB5264582F700CA97BF /* Build configuration list for PBXNativeTarget "Four in a row" */;
 			buildPhases = (
-				79FD1C7C264581AD00CA97BF /* Sources */,
-				79FD1C7D264581AD00CA97BF /* Frameworks */,
-				79FD1C7E264581AD00CA97BF /* Resources */,
+				79FD1C9D264582F200CA97BF /* Sources */,
+				79FD1C9E264582F200CA97BF /* Frameworks */,
+				79FD1C9F264582F200CA97BF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Four in a Row";
-			productName = "Four in a Row";
-			productReference = 79FD1C80264581AD00CA97BF /* Four in a Row.app */;
+			name = "Four in a row";
+			productName = "Four in a row";
+			productReference = 79FD1CA1264582F200CA97BF /* Four in a row.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		79FD1C78264581AD00CA97BF /* Project object */ = {
+		79FD1C99264582F200CA97BF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					79FD1C7F264581AD00CA97BF = {
+					79FD1CA0264582F200CA97BF = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
-			buildConfigurationList = 79FD1C7B264581AD00CA97BF /* Build configuration list for PBXProject "Four in a Row" */;
+			buildConfigurationList = 79FD1C9C264582F200CA97BF /* Build configuration list for PBXProject "Four in a row" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,56 +118,66 @@
 				en,
 				Base,
 			);
-			mainGroup = 79FD1C77264581AD00CA97BF;
-			productRefGroup = 79FD1C81264581AD00CA97BF /* Products */;
+			mainGroup = 79FD1C98264582F200CA97BF;
+			productRefGroup = 79FD1CA2264582F200CA97BF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				79FD1C7F264581AD00CA97BF /* Four in a Row */,
+				79FD1CA0264582F200CA97BF /* Four in a row */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		79FD1C7E264581AD00CA97BF /* Resources */ = {
+		79FD1C9F264582F200CA97BF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79FD1C8F264581AD00CA97BF /* Main.storyboard in Resources */,
-				79FD1C86264581AD00CA97BF /* GameScene.sks in Resources */,
-				79FD1C91264581B300CA97BF /* Assets.xcassets in Resources */,
-				79FD1C88264581AD00CA97BF /* Actions.sks in Resources */,
+				79FD1CB1264582F700CA97BF /* LaunchScreen.storyboard in Resources */,
+				79FD1CAE264582F700CA97BF /* Assets.xcassets in Resources */,
+				79FD1CAC264582F200CA97BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		79FD1C7C264581AD00CA97BF /* Sources */ = {
+		79FD1C9D264582F200CA97BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79FD1C8A264581AD00CA97BF /* GameScene.swift in Sources */,
-				79FD1C8C264581AD00CA97BF /* GameViewController.swift in Sources */,
-				79FD1C84264581AD00CA97BF /* AppDelegate.swift in Sources */,
+				79FD1CA9264582F200CA97BF /* ViewController.swift in Sources */,
+				79FD1CA5264582F200CA97BF /* AppDelegate.swift in Sources */,
+				79FD1CB92645854300CA97BF /* Board.swift in Sources */,
+				79FD1CBB2645886300CA97BF /* Player.swift in Sources */,
+				79FD1CBD26458A7B00CA97BF /* Move.swift in Sources */,
+				79FD1CA7264582F200CA97BF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		79FD1C8D264581AD00CA97BF /* Main.storyboard */ = {
+		79FD1CAA264582F200CA97BF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				79FD1C8E264581AD00CA97BF /* Base */,
+				79FD1CAB264582F200CA97BF /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79FD1CAF264582F700CA97BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79FD1CB0264582F700CA97BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		79FD1C93264581B300CA97BF /* Debug */ = {
+		79FD1CB3264582F700CA97BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		79FD1C94264581B300CA97BF /* Release */ = {
+		79FD1CB4264582F700CA97BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -277,38 +293,38 @@
 			};
 			name = Release;
 		};
-		79FD1C96264581B300CA97BF /* Debug */ = {
+		79FD1CB6264582F700CA97BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L2BC5TCSR5;
-				INFOPLIST_FILE = "Four in a Row/Info.plist";
+				INFOPLIST_FILE = "Four in a row/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.garageminfinita.Four-in-a-Row";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garageminfinita.Four-in-a-row";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		79FD1C97264581B300CA97BF /* Release */ = {
+		79FD1CB7264582F700CA97BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L2BC5TCSR5;
-				INFOPLIST_FILE = "Four in a Row/Info.plist";
+				INFOPLIST_FILE = "Four in a row/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.garageminfinita.Four-in-a-Row";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garageminfinita.Four-in-a-row";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,25 +334,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		79FD1C7B264581AD00CA97BF /* Build configuration list for PBXProject "Four in a Row" */ = {
+		79FD1C9C264582F200CA97BF /* Build configuration list for PBXProject "Four in a row" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79FD1C93264581B300CA97BF /* Debug */,
-				79FD1C94264581B300CA97BF /* Release */,
+				79FD1CB3264582F700CA97BF /* Debug */,
+				79FD1CB4264582F700CA97BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79FD1C95264581B300CA97BF /* Build configuration list for PBXNativeTarget "Four in a Row" */ = {
+		79FD1CB5264582F700CA97BF /* Build configuration list for PBXNativeTarget "Four in a row" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79FD1C96264581B300CA97BF /* Debug */,
-				79FD1C97264581B300CA97BF /* Release */,
+				79FD1CB6264582F700CA97BF /* Debug */,
+				79FD1CB7264582F700CA97BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 79FD1C78264581AD00CA97BF /* Project object */;
+	rootObject = 79FD1C99264582F200CA97BF /* Project object */;
 }
