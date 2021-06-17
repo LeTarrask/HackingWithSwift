@@ -12,6 +12,7 @@ struct Cows_and_BullsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .navigationTitle("Cows and Bulls")
         }
     }
 }
