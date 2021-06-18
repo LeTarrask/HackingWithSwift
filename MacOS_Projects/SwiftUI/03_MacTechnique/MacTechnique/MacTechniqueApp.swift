@@ -2,7 +2,7 @@
 //  MacTechniqueApp.swift
 //  MacTechnique
 //
-//  Created by Alex Luna on 17/06/2021.
+//  Created by tarrask on 18/06/2021.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct MacTechniqueApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MenusView()
         }
     }
 }
