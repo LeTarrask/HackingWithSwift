@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		791BB365267CDB9E00304D2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791BB364267CDB9E00304D2E /* AppDelegate.swift */; };
+		791BB367267CDB9E00304D2E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 791BB366267CDB9E00304D2E /* GameScene.sks */; };
+		791BB36B267CDB9E00304D2E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791BB36A267CDB9E00304D2E /* GameScene.swift */; };
+		791BB36D267CDB9E00304D2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791BB36C267CDB9E00304D2E /* ViewController.swift */; };
+		791BB36F267CDBA300304D2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 791BB36E267CDBA300304D2E /* Assets.xcassets */; };
+		791BB372267CDBA300304D2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791BB370267CDBA300304D2E /* Main.storyboard */; };
+		791BB37D267CDC5A00304D2E /* shot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 791BB37A267CDC5900304D2E /* shot.wav */; };
+		791BB37E267CDC5A00304D2E /* empty.wav in Resources */ = {isa = PBXBuildFile; fileRef = 791BB37B267CDC5900304D2E /* empty.wav */; };
+		791BB37F267CDC5A00304D2E /* reload.wav in Resources */ = {isa = PBXBuildFile; fileRef = 791BB37C267CDC5A00304D2E /* reload.wav */; };
+		791BB381267CDDE100304D2E /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791BB380267CDDE100304D2E /* Target.swift */; };
+		791BB383267CE0B200304D2E /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791BB382267CE0B200304D2E /* GameView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		791BB361267CDB9E00304D2E /* Shooting Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shooting Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		791BB364267CDB9E00304D2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		791BB366267CDB9E00304D2E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		791BB36A267CDB9E00304D2E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		791BB36C267CDB9E00304D2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		791BB36E267CDBA300304D2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		791BB371267CDBA300304D2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		791BB373267CDBA300304D2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		791BB374267CDBA300304D2E /* Shooting_Gallery.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shooting_Gallery.entitlements; sourceTree = "<group>"; };
+		791BB37A267CDC5900304D2E /* shot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shot.wav; sourceTree = "<group>"; };
+		791BB37B267CDC5900304D2E /* empty.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = empty.wav; sourceTree = "<group>"; };
+		791BB37C267CDC5A00304D2E /* reload.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = reload.wav; sourceTree = "<group>"; };
+		791BB380267CDDE100304D2E /* Target.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
+		791BB382267CE0B200304D2E /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		791BB35E267CDB9E00304D2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		791BB358267CDB9E00304D2E = {
+			isa = PBXGroup;
+			children = (
+				791BB363267CDB9E00304D2E /* Shooting Gallery */,
+				791BB362267CDB9E00304D2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		791BB362267CDB9E00304D2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				791BB361267CDB9E00304D2E /* Shooting Gallery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		791BB363267CDB9E00304D2E /* Shooting Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				791BB364267CDB9E00304D2E /* AppDelegate.swift */,
+				791BB366267CDB9E00304D2E /* GameScene.sks */,
+				791BB36A267CDB9E00304D2E /* GameScene.swift */,
+				791BB382267CE0B200304D2E /* GameView.swift */,
+				791BB380267CDDE100304D2E /* Target.swift */,
+				791BB36C267CDB9E00304D2E /* ViewController.swift */,
+				791BB36E267CDBA300304D2E /* Assets.xcassets */,
+				791BB370267CDBA300304D2E /* Main.storyboard */,
+				791BB373267CDBA300304D2E /* Info.plist */,
+				791BB374267CDBA300304D2E /* Shooting_Gallery.entitlements */,
+				791BB37B267CDC5900304D2E /* empty.wav */,
+				791BB37C267CDC5A00304D2E /* reload.wav */,
+				791BB37A267CDC5900304D2E /* shot.wav */,
+			);
+			path = "Shooting Gallery";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		791BB360267CDB9E00304D2E /* Shooting Gallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 791BB377267CDBA300304D2E /* Build configuration list for PBXNativeTarget "Shooting Gallery" */;
+			buildPhases = (
+				791BB35D267CDB9E00304D2E /* Sources */,
+				791BB35E267CDB9E00304D2E /* Frameworks */,
+				791BB35F267CDB9E00304D2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shooting Gallery";
+			productName = "Shooting Gallery";
+			productReference = 791BB361267CDB9E00304D2E /* Shooting Gallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		791BB359267CDB9E00304D2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					791BB360267CDB9E00304D2E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 791BB35C267CDB9E00304D2E /* Build configuration list for PBXProject "Shooting Gallery" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 791BB358267CDB9E00304D2E;
+			productRefGroup = 791BB362267CDB9E00304D2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				791BB360267CDB9E00304D2E /* Shooting Gallery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		791BB35F267CDB9E00304D2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791BB367267CDB9E00304D2E /* GameScene.sks in Resources */,
+				791BB36F267CDBA300304D2E /* Assets.xcassets in Resources */,
+				791BB37D267CDC5A00304D2E /* shot.wav in Resources */,
+				791BB37E267CDC5A00304D2E /* empty.wav in Resources */,
+				791BB372267CDBA300304D2E /* Main.storyboard in Resources */,
+				791BB37F267CDC5A00304D2E /* reload.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		791BB35D267CDB9E00304D2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791BB36D267CDB9E00304D2E /* ViewController.swift in Sources */,
+				791BB36B267CDB9E00304D2E /* GameScene.swift in Sources */,
+				791BB381267CDDE100304D2E /* Target.swift in Sources */,
+				791BB365267CDB9E00304D2E /* AppDelegate.swift in Sources */,
+				791BB383267CE0B200304D2E /* GameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		791BB370267CDBA300304D2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				791BB371267CDBA300304D2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		791BB375267CDBA300304D2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		791BB376267CDBA300304D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		791BB378267CDBA300304D2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Shooting Gallery/Shooting_Gallery.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L2BC5TCSR5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Shooting Gallery/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garageminfinita.Shooting-Gallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		791BB379267CDBA300304D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Shooting Gallery/Shooting_Gallery.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L2BC5TCSR5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Shooting Gallery/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garageminfinita.Shooting-Gallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		791BB35C267CDB9E00304D2E /* Build configuration list for PBXProject "Shooting Gallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791BB375267CDBA300304D2E /* Debug */,
+				791BB376267CDBA300304D2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		791BB377267CDBA300304D2E /* Build configuration list for PBXNativeTarget "Shooting Gallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791BB378267CDBA300304D2E /* Debug */,
+				791BB379267CDBA300304D2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 791BB359267CDB9E00304D2E /* Project object */;
+}
