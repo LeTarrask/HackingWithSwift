@@ -13,4 +13,16 @@ Completed all Swift UIKit projects on Tuesday, 27/04/2021, and added them to the
 Started on Friday 16/04/21 along with the UIKit projects, completed on Friday, 30/04/2021. [repo](https://github.com/LeTarrask/HackingWithSwift/tree/main/Milestone_Projects)
 
 ## Hacking with Swift SpriteKit
-Started on ***
+Completed all projects in 07/05/2021, and added to [github repo](https://github.com/LeTarrask/HackingWithSwift)
+
+## Advanced Swift
+Started Advanced 1 on 16/06/2021.
+
+[github repo](https://github.com/LeTarrask/HackingWithSwift)
+
+## Hacking with MacOS
+Started Hacking MacOS SwiftUI on 17/06/2021. Finished working the tutorials on 21/06. Completed all SpriteKit projects, and the Documents based project, but didn't do the AutoLayout and others that are also on the iOS version, and skipped the pure Storyboards UIKit projects, which aren't that compatible with software written for Big Sur onwards.
+
+[github repo](https://github.com/LeTarrask/HackingWithSwift/tree/main/Advanced_Swift_Projects)
+
+[Here's the log.](/macos.md)
