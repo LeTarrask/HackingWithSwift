@@ -255,7 +255,21 @@ class ViewController: NSViewController, NSTextViewDelegate {
     }
     
     @objc func changeFontName() {
-        document.screenshot.captionFontName = fontName.titleOfSelectedItem ?? ""
+        setFontName(to: fontName.titleOfSelectedItem ?? "")
+    }
+    
+    // NOTE: For project 15, I'll skip making this change to all the other methods in the app, because I just want to learn the stuff, not repeat it until I get bored.
+    @objc func setFontName(to name: String) {
+        // register the undo point with the current font name
+           undoManager?.registerUndo(withTarget: self, selector: #selector(setFontName), object: document.screenshot.captionFontName)
+        
+        // update the font name
+        document.screenshot.captionFontName = name
+        
+        // update the UI to match
+           fontName.selectItem(withTitle: document.screenshot.captionFontName)
+        
+        // ensure the preview is updated
         generatePreview()
     }
     
